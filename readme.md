@@ -1,6 +1,6 @@
-#installation  
+# installation  
 
-##git  
+## git  
 
 ```
 git config --global user.name "Vladimirak"
@@ -12,7 +12,7 @@ git remote add origin https://github.com/vkosilko/findFlatDB.git
 
 ```
 
-##Packages 
+## Packages 
 
 ```
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
@@ -46,3 +46,16 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 
 ```
+
+## Mongo  
+
+```
+```
+## Docker
+
+sudo groupadd docker
+sudo usermod -aG docker ${USER}
+su 
+
+docker login --username vladimirak
+pass 9cc18685-3cb4-4a50-b4d0-46bc9672757a
