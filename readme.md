@@ -48,14 +48,15 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
 ## Mongo  
-
 ```
+docker pull mongo
+docker run --name flatMongoDB -d mongo:tag
 ```
 ## Docker
-
+```
 sudo groupadd docker
 sudo usermod -aG docker ${USER}
-su 
 
 docker login --username vladimirak
 pass 9cc18685-3cb4-4a50-b4d0-46bc9672757a
+```
